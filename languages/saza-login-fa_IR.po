@@ -1,0 +1,228 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Saza-login 1.0.0\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Appearance"
+msgstr "ظاهر"
+
+msgid "Login address"
+msgstr "نشانی ورود"
+
+msgid "Security"
+msgstr "امنیت"
+
+msgid "Custom login design"
+msgstr "طراحی اختصاصی صفحه ورود"
+
+msgid "Use the lightweight Saza-login design on the standard WordPress login screen."
+msgstr "از طراحی سبک Saza-login در صفحه ورود استاندارد وردپرس استفاده کنید."
+
+msgid "Login logo"
+msgstr "لوگوی صفحه ورود"
+
+msgid "A selected logo takes priority over the site logo. Leave it empty to use the site logo automatically."
+msgstr "لوگوی انتخاب‌شده بر لوگوی سایت اولویت دارد. برای استفاده خودکار از لوگوی سایت، این گزینه را خالی بگذارید."
+
+msgid "Primary color"
+msgstr "رنگ اصلی"
+
+msgid "Used for the login button and focus states."
+msgstr "برای دکمه ورود و حالت تمرکز فیلدها استفاده می‌شود."
+
+msgid "Background color"
+msgstr "رنگ پس‌زمینه"
+
+msgid "Used beneath the login form and its soft gradient."
+msgstr "برای پس‌زمینه و گرادیان ملایم صفحه ورود استفاده می‌شود."
+
+msgid "Change login address"
+msgstr "تغییر نشانی ورود"
+
+msgid "This hides the ordinary wp-login.php page for login requests. Save the new URL before enabling this option."
+msgstr "صفحه معمول wp-login.php برای درخواست ورود پنهان می‌شود. پیش از فعال‌سازی، نشانی جدید را ذخیره کنید."
+
+msgid "Login slug"
+msgstr "بخش نشانی ورود"
+
+msgid "Use one lowercase URL segment with letters, numbers, and hyphens."
+msgstr "یک بخش نشانی با حروف کوچک انگلیسی، عدد و خط تیره وارد کنید."
+
+msgid "Current or proposed login URL"
+msgstr "نشانی فعلی یا پیشنهادی ورود"
+
+msgid "Copy and store the address before changing the login route."
+msgstr "پیش از تغییر مسیر ورود، این نشانی را کپی و در جای امنی نگه‌داری کنید."
+
+msgid "Brute-force protection"
+msgstr "محافظت در برابر حدس خودکار رمز"
+
+msgid "Counts failed authentication through WordPress core hooks and temporarily blocks the source IP and login pair."
+msgstr "ورودهای ناموفق از مسیر هوک‌های هسته وردپرس شمرده می‌شوند و ترکیب نشانی IP و شناسه ورود به‌طور موقت محدود می‌شود."
+
+msgid "Login and IP-pair attempts"
+msgstr "تعداد تلاش برای هر شناسه و IP"
+
+msgid "Failed attempts for one source IP and one username or email during the counting window."
+msgstr "تعداد ورودهای ناموفق از یک IP برای یک نام کاربری یا ایمیل در بازه شمارش."
+
+msgid "Counting window (minutes)"
+msgstr "بازه شمارش (دقیقه)"
+
+msgid "How long the failed-attempt count remains active."
+msgstr "مدتی که شمارنده تلاش‌های ناموفق فعال می‌ماند."
+
+msgid "Initial lockout (minutes)"
+msgstr "مدت محدودیت اولیه (دقیقه)"
+
+msgid "Repeat lockouts for the same source are extended progressively, up to 24 hours."
+msgstr "محدودیت‌های تکراری برای همان منبع به‌تدریج افزایش می‌یابند و حداکثر ۲۴ ساعت هستند."
+
+msgid "Total attempts per IP"
+msgstr "مجموع تلاش‌ها برای هر IP"
+
+msgid "A separate IP-wide ceiling helps limit attempts spread across many usernames."
+msgstr "سقف جداگانه IP به محدودکردن تلاش‌هایی کمک می‌کند که بین نام‌های کاربری مختلف پخش شده‌اند."
+
+msgid "Disable authenticated XML-RPC methods"
+msgstr "غیرفعال‌کردن روش‌های احراز هویت XML-RPC"
+
+msgid "Disables XML-RPC methods that require a WordPress username and password. This can affect mobile apps and publishing integrations; pingbacks and custom unauthenticated XML-RPC methods are not disabled by this setting."
+msgstr "روش‌های XML-RPC نیازمند نام کاربری و رمز وردپرس را غیرفعال می‌کند. این کار ممکن است روی اپلیکیشن‌های موبایل و یکپارچه‌سازی‌های انتشار اثر بگذارد؛ این گزینه pingbackها و روش‌های سفارشی XML-RPC بدون احراز هویت را غیرفعال نمی‌کند."
+
+msgid "Trusted proxy header"
+msgstr "سرآیند پراکسی مورد اعتماد"
+
+msgid "Forwarded IP headers are ignored unless the connecting proxy is listed below."
+msgstr "سرآیندهای IP ارسالی نادیده گرفته می‌شوند، مگر اینکه پراکسی متصل‌شده در فهرست زیر باشد."
+
+msgid "Trusted proxy IPs or CIDRs"
+msgstr "IP یا CIDR پراکسی‌های مورد اعتماد"
+
+msgid "Enter one trusted proxy IP address or CIDR range per line. Only configure addresses controlled by you."
+msgstr "در هر خط یک نشانی IP یا بازه CIDR برای پراکسی مورد اعتماد وارد کنید. فقط نشانی‌هایی را تنظیم کنید که در اختیار شما هستند."
+
+msgid "Active limits"
+msgstr "محدودیت‌های فعال"
+
+msgid "Clear all rate-limit records for this site if a legitimate user needs access."
+msgstr "اگر کاربر مجازی نیاز به دسترسی دارد، همه محدودیت‌های تلاش این سایت را پاک کنید."
+
+msgid "Delete data on uninstall"
+msgstr "حذف داده‌ها هنگام حذف افزونه"
+
+msgid "By default, uninstall preserves settings. Enable this to delete this site’s settings and rate-limit records when the plugin is deleted."
+msgstr "به‌طور پیش‌فرض تنظیمات هنگام حذف افزونه حفظ می‌شوند. برای حذف تنظیمات و سوابق محدودسازی این سایت، این گزینه را فعال کنید."
+
+msgid "Enabled"
+msgstr "فعال"
+
+msgid "No custom logo selected"
+msgstr "لوگوی اختصاصی انتخاب نشده است"
+
+msgid "Choose image"
+msgstr "انتخاب تصویر"
+
+msgid "Remove custom logo"
+msgstr "حذف لوگوی اختصاصی"
+
+msgid "Copy URL"
+msgstr "کپی نشانی"
+
+msgid "The default address is active until a custom route has been verified."
+msgstr "نشانی پیش‌فرض تا زمان تأیید مسیر اختصاصی فعال می‌ماند."
+
+msgid "Do not read forwarded headers"
+msgstr "سرآیندهای ارسالی خوانده نشوند"
+
+msgid "Cloudflare CF-Connecting-IP"
+msgstr "سرآیند Cloudflare با نام CF-Connecting-IP"
+
+msgid "X-Forwarded-For chain"
+msgstr "زنجیره X-Forwarded-For"
+
+msgid "The native WordPress login form remains in place. Saza-login changes its presentation and logo only."
+msgstr "فرم ورود اصلی وردپرس حفظ می‌شود. Saza-login فقط ظاهر و لوگوی آن را تغییر می‌دهد."
+
+msgid "Changing the login address can interrupt sign-in if server rewrites or another security plugin conflict. Keep an administrator session open and store the new address first."
+msgstr "در صورت تداخل بازنویسی سرور یا افزونه امنیتی دیگر، تغییر نشانی ورود ممکن است ورود را مختل کند. ابتدا یک نشست مدیر را باز نگه دارید و نشانی جدید را ذخیره کنید."
+
+msgid "The custom address is pending verification. The standard login remains available until the new route successfully opens."
+msgstr "نشانی اختصاصی در انتظار تأیید است. تا زمانی که مسیر جدید با موفقیت باز نشود، ورود استاندارد در دسترس می‌ماند."
+
+msgid "Open the new login address"
+msgstr "بازکردن نشانی جدید ورود"
+
+msgid "Custom login addresses are unavailable on Multisite. The standard WordPress login URL remains active."
+msgstr "نشانی اختصاصی ورود در Multisite در دسترس نیست. نشانی استاندارد ورود وردپرس فعال می‌ماند."
+
+msgid "Custom login addresses require pretty permalinks. Choose a permalink structure before enabling this feature."
+msgstr "نشانی اختصاصی ورود به پیوندهای یکتای زیبا نیاز دارد. پیش از فعال‌کردن این قابلیت، ساختار پیوند یکتا را انتخاب کنید."
+
+msgid "Rate limits are stored in a small indexed table. The plugin never stores submitted passwords, raw usernames, or raw client IP addresses."
+msgstr "محدودیت‌ها در جدولی کوچک و ایندکس‌شده ذخیره می‌شوند. افزونه رمزهای ارسالی، نام کاربری خام یا IP خام کاربر را ذخیره نمی‌کند."
+
+msgid "Select a login logo"
+msgstr "لوگوی صفحه ورود را انتخاب کنید"
+
+msgid "Use this logo"
+msgstr "استفاده از این لوگو"
+
+msgid "Login URL copied."
+msgstr "نشانی ورود کپی شد."
+
+msgid "Could not copy the URL. Select and copy it manually."
+msgstr "کپی نشانی ممکن نشد. آن را به‌صورت دستی انتخاب و کپی کنید."
+
+msgid "Saza-login settings"
+msgstr "تنظیمات Saza-login"
+
+msgid "Active rate limits were cleared."
+msgstr "محدودیت‌های فعال پاک شدند."
+
+msgid "Save settings"
+msgstr "ذخیره تنظیمات"
+
+msgid "Clear active limits"
+msgstr "پاک‌کردن محدودیت‌های فعال"
+
+msgid "You are not allowed to manage Saza-login settings."
+msgstr "شما اجازه مدیریت تنظیمات Saza-login را ندارید."
+
+msgid "Saza-login could not create its rate-limit table. Brute-force protection is unavailable until the database issue is fixed and the plugin is reactivated."
+msgstr "Saza-login نتوانست جدول محدودسازی را ایجاد کند. تا زمان رفع مشکل پایگاه داده و فعال‌سازی دوباره افزونه، محافظت در برابر حدس خودکار رمز در دسترس نیست."
+
+msgid "One or more trusted proxy entries were invalid and were ignored."
+msgstr "یک یا چند ورودی پراکسی معتبر نبودند و نادیده گرفته شدند."
+
+msgid "The login slug must be one lowercase URL segment using letters, numbers, or internal hyphens."
+msgstr "بخش نشانی ورود باید یک قسمت با حروف کوچک انگلیسی، عدد یا خط تیره در میانه باشد."
+
+msgid "That login slug is reserved by WordPress or commonly used by a server endpoint."
+msgstr "این بخش نشانی توسط وردپرس رزرو شده یا معمولاً برای مسیرهای سرور استفاده می‌شود."
+
+msgid "Custom login addresses are not supported on Multisite. The standard WordPress login URL remains available."
+msgstr "نشانی اختصاصی ورود در Multisite پشتیبانی نمی‌شود. نشانی استاندارد وردپرس در دسترس می‌ماند."
+
+msgid "Custom login addresses require pretty permalinks. Choose a permalink structure first."
+msgstr "نشانی اختصاصی ورود به پیوندهای یکتای زیبا نیاز دارد. ابتدا یک ساختار پیوند یکتا انتخاب کنید."
+
+msgid "That slug is already used by a public page, post, or content type. Choose a different slug."
+msgstr "این بخش نشانی قبلاً برای یک برگه، نوشته یا نوع محتوای عمومی استفاده شده است. بخش دیگری انتخاب کنید."
+
+msgid "That slug matches a file or directory in the WordPress installation. Choose a different slug."
+msgstr "این بخش نشانی با یک فایل یا پوشه در نصب وردپرس یکسان است. بخش دیگری انتخاب کنید."
+
+msgid "Not Found"
+msgstr "یافت نشد"
+
+msgid "Too many sign-in attempts. Please try again later."
+msgstr "تعداد تلاش‌های ورود بیش از حد مجاز است. لطفاً کمی بعد دوباره تلاش کنید."
+
+msgid "Invalid username or password. Please try again."
+msgstr "نام کاربری یا رمز عبور نادرست است. دوباره تلاش کنید."
+

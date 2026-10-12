@@ -1,0 +1,54 @@
+.saza-login-admin {
+	max-width: 1040px;
+}
+
+.saza-login-admin .form-table th {
+	width: 230px;
+}
+
+.saza-login-admin .saza-login-warning {
+	max-width: 850px;
+	padding: 12px 14px;
+	border-inline-start: 4px solid #b7791f;
+	background: #fffaf0;
+}
+
+.saza-login-admin .saza-login-media-preview {
+	display: flex;
+	width: 180px;
+	min-height: 90px;
+	align-items: center;
+	justify-content: center;
+	margin-block-end: 10px;
+	padding: 10px;
+	border: 1px dashed #a7b3b0;
+	border-radius: 8px;
+	background: #fff;
+}
+
+.saza-login-admin .saza-login-media-preview img {
+	display: block;
+	max-width: 100%;
+	max-height: 90px;
+	object-fit: contain;
+}
+
+.saza-login-admin .saza-login-media-preview span {
+	color: #646970;
+	text-align: center;
+}
+
+.saza-login-admin textarea.code {
+	max-width: 520px;
+}
+
+.saza-login-admin input[type="color"] {
+	width: 72px;
+	height: 36px;
+	padding: 2px;
+}
+
+body.rtl .saza-login-admin .form-table th {
+	text-align: right;
+}
+
